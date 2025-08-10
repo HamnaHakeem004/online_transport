@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: white;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #e8faeb;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:0 ;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 250px;
+}
+.menu-block{
+    display: none;
+}
+.nav-bar ul{
+    display: flex;
+}
+.nav-bar ul li a{
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    padding-left: 30px;
+    padding-right:30px;
+    text-decoration: none;
+    border-radius: 50px;
+    
+}
+.nav-bar ul li a:hover{
+   background:lightgreen;
+   /*background:lightblue ;*/
+    /*background :white;*/
+    
+    
+
+}
+.nav-bar ul li a.active{
+    color:rgb(0, 0, 0);
+    background :#3CCF4E;
+    font-weight: lighter;
+    color: white;
+    /*background :rgb(63, 63, 239)*/
+    /*text-decoration: underline;*/
+}
+#account img{
+    width: 35%;
+}
+#account a:hover{
+    background:none;
+    
+    
+}
+.Search-input{
+    height: 20px;
+    width: 100%;
+    background-color:white;
+} 
+.Search-input input{
+    background: white;
+    float: right;
+    border-radius: 8px;
+    width:13%;
+    border-style: solid;
+    height: 20px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+    
+}
+/*======================Footer css=====================================*/
+.footer-content{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    
+
+    background-color: #e8faeb;
+    
+}
+.footer-logo{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 250px;
+    margin-top:50px;
+}
+.footer-logo span{
+    font-size: 15px;
+    margin-top: -5px;
+}
+.v1{
+    position: absolute;
+    border-left: 3px solid black;
+    height: 150px;
+    margin-left: 420px;
+    margin-top: -90px;
+}
+.footer-text{
+    margin-left: 450px;
+}
+.footer-text ul{
+    float: left;
+    padding-left: 80px;
+    margin-top: -70px;
+}
+.footer-text ul li{
+    padding-bottom: 10px;
+}
+
+
+/*----------------form styles---------------------------*/
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 650px;
+    width: 100%;
+    background: url('background.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    margin-left: -800px;
+    margin-top: -50px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(25px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-box h2{
+    font-size: 32px;
+    color: #ddffe0;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 40px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.inputbox label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color:rgb(255, 255, 255);
+  font-size: 1em;
+  pointer-events: none;
+  transition: .5s;
+
+}
+    input:focus ~ label,
+    input:valid ~ label{
+    top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 15px;
+    color: #ffffff;
+}
+.inputbox i{
+    position: absolute;
+    right: 8px;
+    color: #080808;
+    font-size: 1.5em;
+    top: 15px;
+
+}
+
+.forget{
+    margin: -15px 0 15px ;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget label input{
+    margin-right: 3px;
+
+}
+.forget label a{
+    color: #fff;
+    text-decoration: none;
+}
+.forget label a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    background: #ffffff;
+    border: none;
+    outline: none;
+    background: #19af20;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.register{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+}

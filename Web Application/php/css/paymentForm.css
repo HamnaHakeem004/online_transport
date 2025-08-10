@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0; 
+  padding:0;
+  box-sizing: border-box;
+  outline: none;
+  border:none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: white;
+}
+header{
+    
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: #e8faeb;
+    padding:0 ;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 250px;
+}
+.menu-block{
+    display: none;
+}
+.nav-bar ul{
+    display: flex;
+}
+.nav-bar ul li a{
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    padding-left: 30px;
+    padding-right:30px;
+    text-decoration: none;
+    border-radius: 50px;
+    
+}
+.nav-bar ul li a:hover{
+   background:lightgreen;
+   /*background:lightblue ;*/
+    /*background :white;*/
+    
+    
+
+}
+.nav-bar ul li a.active{
+    color:rgb(0, 0, 0);
+    background :#3CCF4E;
+    font-weight: lighter;
+    color: white;
+    /*background :rgb(63, 63, 239)*/
+    /*text-decoration: underline;*/
+}
+#account img{
+    width: 35%;
+}
+#account a:hover{
+    background:none;
+    
+    
+}
+.Search-input{
+    height: 20px;
+    width: 100%;
+    background-color:white;
+} 
+.Search-input input{
+    background: white;
+    float: right;
+    border-radius: 8px;
+    width:13%;
+    border-style: solid;
+    height: 20px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+    
+}
+#signout{
+    font-weight: bold;
+    font-size: 15px;
+    padding:4px;
+    border-radius: 10px;
+    border-style: none;
+  
+  }
+  #signout:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+  }
+/*======================Footer css=====================================*/
+#footer-content{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    margin-top: 1000px;
+    background-color: #e8faeb;
+    
+}
+.footer-logo{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 250px;
+    margin-top:50px;
+}
+.footer-logo span{
+    font-size: 15px;
+    margin-top: -5px;
+}
+.v1{
+    position: absolute;
+    border-left: 3px solid black;
+    height: 150px;
+    margin-left: 420px;
+    margin-top: -90px;
+}
+.footer-text{
+    margin-left: 450px;
+}
+.footer-text ul{
+    float: left;
+    padding-left: 80px;
+    margin-top: -70px;
+}
+.footer-text ul li{
+    padding-bottom: 10px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:25px;
+  min-height: 100vh;
+  background:white;
+}
+
+.container form{
+  padding:20px;
+  border-radius: 20px;
+  width:700px;
+  background: #fff;
+  
+}
+
+.container form .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+}
+
+.container form .row .col{
+    flex:1 1 250px;
+}
+
+.container form .row .col .title{
+  font-size: 20px;
+  color:#333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.container form .row .col .inputBox{
+  margin:15px 0;
+}
+
+.container form .row .col .inputBox span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.container form .row .col .inputBox input{
+  width: 100%;
+  border:1px solid #ccc;
+  border-radius: 10px;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.container form .row .col .inputBox input:focus{
+  border:1px solid #000;
+}
+
+.container form .row .col .flex{
+  display: flex;
+  gap:15px;
+}
+
+.container form .row .col .flex .inputBox{
+  margin-top: 5px;
+}
+
+.container form .row .col .inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+.container form .submit-btn{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  border-radius: 10px;
+  background: #27ae60;
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.container form .submit-btn:hover{
+  background: #2ecc71;
+}

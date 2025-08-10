@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickRide | Admin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="css/adminlogin.css">
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="php/adminlogin.php" method="post">
+                    <h2>Admin Login</h2>
+                    <div class="inputbox">
+                        
+                        <input type="text" name="username" required>
+                        <label for="">Username</label>
+                    </div>
+
+                    <div class="inputbox">
+                        
+                        <input type="password" name="password" required>
+                        <label for="">Password</label>
+                    </div>
+                    
+                    <div class="forget">
+                        <label for=""><input type="checkbox">Remember Me  <a href="#">Forget Password</a></label>
+
+                    </div>
+                    <button name="login" value="login" name="login">Log in</button>
+                    
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

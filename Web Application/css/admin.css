@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+   
+
+}
+body{
+    width: 100%;
+    background: #e5e7eb;
+    position: relative;
+    display: flex;
+}
+#menu{
+    background: #111827;
+    width:300px;
+    height: 1000px;
+}
+.logo h2{
+    margin: auto;
+    color: white;
+    padding-top: 20px; 
+    font-size: 30px; 
+}
+.logo span{
+    font-size: 15px;
+    position: absolute;
+    margin-left: 20px;
+}
+.logo{
+   text-align: center;
+}
+#menu .items{
+    margin-top:40px;
+}
+#menu .items li{
+    list-style: none;
+    text-align:center;
+    padding:15px 0px;
+    
+
+}
+.items li a{
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 60px 10px;
+    border-radius: 5px;
+    color:black
+}
+.items li a:hover{
+    background-color: rgb(29, 167, 22);
+    color:white;
+}
+#interface{
+    width: calc(100% - 300px);
+}
+#interface .navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding:15px 30px;
+    border-bottom:3px solid;
+}
+#interface .navigation .search{
+    padding: 10px 14px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+#interface .navigation .search input{
+     border:none;
+     outline:none;
+     font-size: 14px;
+}
